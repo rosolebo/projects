@@ -231,7 +231,7 @@ const quizData = [
         b: "Once daily",
         c: "Four times daily",
         d: "After each meal",
-        correct: "n",
+        correct: "a",
         },
         {
         question: "What does the term neglect mean?",
@@ -260,10 +260,10 @@ const quizData = [
         {
         question: "When a person's breathing stops, it is called",
         a: "Cardiac arrest",
-        b: "Respitory arrest",
+        b: "Respiratory arrest",
         c: "CPR",
         d: "Choking",
-        correct : "?",
+        correct : "b",
         },
         {
         question: "Which of the following is true of most elderly people?",
@@ -607,7 +607,7 @@ const quizData = [
         b: "Prone",
         c: "Fowler's",
         d: "Supine",
-        correct: "n",
+        correct: "a",
         },
         {
         question: "Which of the following increases the risk of infection in older adults?",
@@ -687,7 +687,7 @@ const quizData = [
         b: "98.6F",
         c: "97.6F",
         d: "100.6F",
-        correct: "n", 
+        correct: "d", 
         },
     
 ];
