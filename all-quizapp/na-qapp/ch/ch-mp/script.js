@@ -2,7 +2,7 @@
 const quizData = [
  
     {
-        question: "If a resident complains of of pain, the nurse assistant should",
+        question: "If a resident complains of pain, the nurse assistant should",
         a: "Get the resident pain medication.", 
         b: "Give the resident aspirin before trying pain medication.", 
         c: "Ask the resident to describe the pain and report it to the supervisor.", 
@@ -234,7 +234,7 @@ const quizData = [
         correct: "d",	
             },
             {
-            question: "Straining usrine is necessary to:",
+            question: "Straining urine is necessary to:",
         a: "Find kidney stones", 
         b: "Discover sugar", 
         c: "Clean the urine", 
@@ -410,7 +410,7 @@ const quizData = [
         correct: "b",	
             },
             {
-            question: "A cold compres is aoplied to:",
+            question: "A cold compress is aoplied to:",
         a: "Limit movement of a joint.", 
         b: "Moisten the skin.", 
         c: "Increase circulation.", 
