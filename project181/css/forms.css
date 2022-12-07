@@ -1,0 +1,23 @@
+form { border: 1px solid #00a8f3;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    padding: 10px; }
+
+label { 
+    float: left;
+    width: 130px;
+    clear: left;
+    text-align: right;
+    padding-right: 10px;
+    margin-top: 10px; }
+
+input, textarea { margin-top: 10px;
+display: block; }
+#mySubmit, #myReset { 
+    background-color: #00a8f3;
+    color: #fff;
+    padding: 5px;
+    margin-left: 130px;
+    font-size: 16px; 
+}
+

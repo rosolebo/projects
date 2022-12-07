@@ -6,6 +6,8 @@
   
   body{
     background-color: #80808080;
+    font-family: 'Ubuntu', serif;
+    font-size: 20px;
   }
   
   header, nav, main, section, footer {display: block;}
@@ -19,9 +21,7 @@
   header{
     background-color: #fff;
     font-family: 'Courier New', Courier, monospace;
-    color: #ff832f;
     font-size: 2.5vw;
-    text-align: center;
     padding-bottom: 2px;
   }
 
@@ -34,8 +34,9 @@
 
 nav {
   text-align: center;
-  background-color: #347cdb;
-  font-family: 'Courier New', Courier, monospace;
+  background-color: #00a8f3;
+  font-family: 'Ubuntu', serif;
+  /* font-family: 'Courier New', Courier, monospace; */
   padding: 10px; 
 }
 
@@ -79,14 +80,14 @@ nav a.active {
 	padding-top: 1em;
 }
 h1 {
-  font-family:sans-serif;
-  color:navy;
+  font-family: 'Ubuntu', serif;
+  color:#00a8f3;
  }
 
 
 h2 {
-font-family:cursive;
-background-color:navy;
+  font-family: 'Ubuntu', serif;
+background-color:#00a8f3;
 color:papayawhip;
 } 
 
@@ -94,10 +95,23 @@ color:papayawhip;
 p {
 font-family:sans-serif;
 color:rgb (56,0,0);
+padding-bottom: 5px;
+padding-top: 5px;
 } 
 
+#setmapsite{
+  font-family: 'Ubuntu', serif;
+  text-align: center;
+  font-size: large;
+}
+#setmapsite a{
+  text-decoration: none;
+}
+
+#setmapsite ul { list-style-type: none; }
+
 footer{
-	background-color: #347cdb;
+	background-color: #00a8f3;
 	font-size: small;
 	font-style: italic;
   color: #fff;
@@ -112,6 +126,9 @@ footer{
   navbar ul{list-style-type: none;}
   navbar li{ display: inline; }
   navbar a{text-decoration: none; color: #000; font-weight: bold;}
+  navbar a:hover {
+    background-color: #ff832f;
+  }
 
   @media screen and (max-width: 790px){
     .wrapper{

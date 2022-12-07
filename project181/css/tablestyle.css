@@ -1,6 +1,6 @@
 
 table { margin: auto;
-    border: 5px solid #000;
+    border: 1px solid #00a8f3;
     width: 85%; 
     border-spacing: 0;
 }
@@ -8,10 +8,10 @@ table { margin: auto;
 td, th { padding: 0.5em;
      text-align: center;
      border-style: none;
-     font-family: Arial, sans-serif; 
-	 border: 1px solid #000;
+     font-family: 'Ubuntu', serif; 
+	 border: 1px solid #00a8f3;
 }
-caption { font-family: Verdana, sans-serif;
+caption { font-family: 'Ubuntu', serif;
       font-weight: bold;
       font-size: 1.2em;
       padding-bottom: 0.5em; 
