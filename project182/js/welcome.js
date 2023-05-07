@@ -11,7 +11,7 @@
 // 3. remove message from display
 
 $(document).ready( () => {
-    $("#greetings").delay(5000).fadeOut(1000);
+    $("#greetings").delay(2000).fadeOut(1000).fadeIn(3000);
     
 });// end ready
 
