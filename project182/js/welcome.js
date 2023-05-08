@@ -6,9 +6,11 @@
 // the message fade out and removed from page after some time
 // xxx
 // Algorithm
-// 1. display greetings for 5 seconds
-// 2. fade out greetings for 1 seconds
-// 3. remove message from display
+// 0. on plage load
+// 1. display greetings for 2 seconds
+// 2. fadeout greetings for 1 seconds
+// 3. remove greetings from display
+// 4. fadein greetings after 3 seconds
 
 $(document).ready( () => {
     $("#greetings").delay(2000).fadeOut(1000).fadeIn(3000);
