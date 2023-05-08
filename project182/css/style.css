@@ -89,7 +89,8 @@ color:papayawhip;
 }
 h4 {
 font-family: 'Ubuntu', serif;
-text-align: center;
+color: #f37a00e9;
+text-align: left;
 } 
 
 p {
@@ -205,7 +206,7 @@ navbar a:hover {
 
 .col1, .col2, .col3 {
   background-color: #fff;
-  height: 160px;
+  height: 200px;
   float: left;
   width: 33.333%;    
   padding-bottom: 1em;
