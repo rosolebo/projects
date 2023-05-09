@@ -1,5 +1,21 @@
 "use strict";
 
+
+// Name: Rasaki Solebo
+// Date: 05/08/2023
+// Program description: This javascript code validates 
+// users entries using regular expressions
+// Algorithm:
+// 1. it splits date into day and month for easy use
+// 2. it ensure that the month is between 1 and 12
+// 3. that days of the month have a max of 31 days
+// 4. if there error messages it is cleared
+// 5. get values entered in textboxs 
+// 6. uses regular expression to validate such values 
+// 7. if values are valid it stores in appropriate variable
+// 8. if not correct, it displays error messages
+// 9. set focus on the first text box. 
+
 const isDate = (date, datePattern) => {
     if (!datePattern.test(date)) { return false; }
 
