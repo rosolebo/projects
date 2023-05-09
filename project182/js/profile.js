@@ -71,6 +71,7 @@ $( document ).ready( () => {
         
         if ( isValid ) { 
             // code that saves profile info goes here
+            $("form").submit(); 
         }
         
         $("#fullname").focus(); 
