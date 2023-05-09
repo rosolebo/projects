@@ -18,6 +18,7 @@ $( document ).ready( () => {
         $("span").text("");   // clear any previous error messages
         
         // get values entered by user
+        const fullname = $("#fullname").val();
         const email = $("#email").val();
         const phone = $("#phone").val();
         const zip = $("#zip").val();
@@ -31,6 +32,10 @@ $( document ).ready( () => {
         
         // check user entries for validity
         let isValid = true;
+        if ( fullname === "" ) {
+            isValid = false;
+            $("#fullname").next().text("Please enter a valid fullname.");
+        }
         if ( email === "" || !emailPattern.test(email) ) {
             isValid = false;
             $("#email").next().text("Please enter a valid email.");
@@ -52,9 +57,9 @@ $( document ).ready( () => {
             // code that saves profile info goes here
         }
         
-        $("#email").focus(); 
+        $("#fullname").focus(); 
     });
     
     // set focus on initial load
-    $("#email").focus();
+    $("#fullname").focus();
 });
