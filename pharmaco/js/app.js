@@ -1,5 +1,3 @@
-"use strict";
-
 //console.log(quiz)
 const questionNumber = document.querySelector(".question-number");
 const questionText = document.querySelector(".question-text");

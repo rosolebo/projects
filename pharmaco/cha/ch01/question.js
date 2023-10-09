@@ -1,5 +1,3 @@
-
-"use strict";
 //focus on Nursing pharmacology 
 //chapter-01 Introduction to Drugs
 //Items - 10
