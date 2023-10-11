@@ -2,7 +2,7 @@
 <html>
 <head>
    <title></title>
-   <meta name="viewport" content="width=device-width, initial-scale">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="../style.css">
 </head>
 <body>
@@ -13,7 +13,7 @@
   </div>
   
   <div class="quiz-box custom-box hide">
-	<h3>Pharmacology Chapter 01 </h3>
+	<h3>Pharmacology Chapter 01</h3>
       <div class="question-number">
 	        
 	  </div>
@@ -37,6 +37,7 @@
   
   <div class="result-box custom-box hide">
        <h1>Quiz Result</h1>
+	   <h3>Pharmacology Chapter 01</h3>
 	   <table>
 	      <tr>
 		     <td>Total Question</td>
@@ -65,8 +66,10 @@
 	   </table>
 	   <button type="button" class="btn" onclick="tryAgainQuiz()">Try Again</button>
 	   <button type="button" class="btn" onclick="goToHome()">Go To Home</button>
-	   <button class="btn" onclick="document.location='/ph-qapp/ch/html/index.html'">Quiz Menu</button>
+	   <!-- <button class="btn" onclick="document.location='../html/menu.html'">Quiz Menu</button> -->
+	   <a class="btn" href="../menu.html"></a>
   </div>
-  <script src="script.js"></script>
+  <script src="question.js"></script>
+  <script src="qapp.js"></script>
 </body>
 </html>
