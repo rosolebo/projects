@@ -81,7 +81,7 @@ const quiz = [
 	  //Ans: a, b, d, e (Select All That Apply) 	  
   },
   {//question-010
-	  q:'Select the option that includes all items that apply to the question',
+	  q:'Select All That Apply - Using Option A, B, C, D Below',
 	  options:['a, b, c, f',
 	  'a, b, d, e',
 	  'a, b, c, e, f',
