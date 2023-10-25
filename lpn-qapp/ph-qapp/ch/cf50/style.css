@@ -1,0 +1,62 @@
+body {
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #e68a85;
+}
+
+h1 {
+    /* Change the font or font size of the header here */
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+#flashcard {
+    /* Customize the dimentions or colors of your flashcard */
+    width: 600px;
+    height: 400px;
+    text-align: center;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: solid 10px white;
+    background-color: #ff6961;
+
+    margin: 100px auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+
+    color: white;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+button {
+    /* Adjust the size, spacing, or color of the buttons */
+    height: 3em;
+    width: 200px;
+    background-color: white;
+    border: none;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button:hover {
+    /* This affect the color of the button when the mouse is hovering over it */
+    background-color: #ADEFD1FF;
+    cursor: pointer;
+}
+
+@media(max-width: 767px){
+	#flashcard {
+        width: 400px;
+        height: 400px;
+        font-size: 30px;
+    }
+    button {
+        width: 120px;
+        font-size: 20px;
+    }
+}
