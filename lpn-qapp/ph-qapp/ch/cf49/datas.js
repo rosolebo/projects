@@ -5,6 +5,11 @@ console.log("Flashcard App Connected");
 
 /* Change the questions to whatever you want! Remember to stick to the theme of music this month. */
 var questions=[
+    "____ is the blood disorder occuring when there are too many RBCs.",
+    "____ is low oxygen levels in your blood",
+    "The break down of red blood cells - RBCs",
+    "What is RBCs lifespan?",
+    "Erythropoietin is produced in the kidneys by the ______.",
     "____ is the, disorder involving too few red blood cells (RBCs) or ineffective RBCs that can alter the blood’s ability to carry oxygen.",
     "____ is the, RBCs, responsible for carrying oxygen to the tissues and removing carbon dioxide; they have no nucleus and live approximately 120 days.",
     "____ is the, process of RBC production and life cycle; formed by megaloblastic cells in the bone marrow, using iron, folic acid, carbohydrates, vitamin B12, and amino acids.",
@@ -24,6 +29,11 @@ var questions=[
 ];
 
 var answers=[
+    "Polycythemia",
+    "Hypoxemia",
+    "Hemolysis",
+    "120 days",
+    "Peritubular cells",
     "Anemia",
     "Erythrocyte",
     "Erythropoiesis",
