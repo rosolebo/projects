@@ -10,8 +10,8 @@ const quiz = [
 	  q:'The autonomic nervous system is unique because it has only one neuron that synapses in an autonomic ganglion. Hence it has only preganglionic neurons not postganglionic neurons. True or False',
 	  options:['True',
 	  'False'],
-	  answer:0	
-	  // answer-  
+	  answer:1	
+	  // answer- b 
   },
   {//question-002
 	  q:'The sympathetic nervous system postganglionic neuron releases what neurotransmitter?',
@@ -19,8 +19,8 @@ const quiz = [
 	  'Norepinephrine',
 	  'Both Acetylcholine and Norepinephrine',
 	  'Arginine'],
-	  answer:0	
-	  // answer- 	  
+	  answer:1	
+	  // answer- b	  
   },
   {//question-003
 	  q:'The sympathetic nervous system preganglionic neuron releases what neurotransmitter?',
@@ -28,8 +28,8 @@ const quiz = [
 	  'Acetylcholine',
 	  'Norepinephrine',
 	  'Arginine'],
-	  answer:0	
-	  // answer- 	  
+	  answer:1	
+	  // answer- b	  
   },
   {//question-006
 	  q:'The postganglionic neuron releases what neurotransmitter in the parasympathetic nervous system?',
@@ -37,8 +37,8 @@ const quiz = [
 	  'Norepinephrine',
 	  'Dopamine',
 	  'Acetylcholine'],
-	  answer:0
-	  // answer- 	  
+	  answer:3
+	  // answer- d	  
   },
   {//question-009
 	  q:'The ________ nervous system stimulates cranial nerve ____, which is responsible for slowing the heart rate, constricting the airway, and stimulating digestion.',
@@ -47,7 +47,7 @@ const quiz = [
 	  'Parasympathetic,III',
 	  'Sympathetic,VII'],
 	  answer:0	
-	  // answer- 
+	  // answer- a
   },
   {//question-011
 	  q:'A patient with Myasthenia gravis is started on Pyridostigmine. What assessment finding demonstrates the drug is working correctly ?',
@@ -55,25 +55,25 @@ const quiz = [
 	  'The patient experiences a relaxed bladder',
 	  'The patient experiences bronchodilation',
 	  'The patient experiences normal muscle function in the face and eyes.'],
-	  answer:0
-	  // answer- 		  
+	  answer:3
+	  // answer- d		  
   },
   {//question-009
 	  q:'Select All That Apply - Using Option A B C D Below',
-	  options:['a, b, f',
-	  'b, c, e',
+	  options:['a, b',
+	  'b, c',
 	  'a, d',
-	  'b, c, f'],
+	  'b, c'],
 	  answer:2,
 	  img:'img/sata04-1.jpg'
 	  //Ans: a, d (Select All That Apply) 	  
   },
   {//question-009
 	  q:'Select All That Apply - Using Option A B C D Below',
-	  options:['a, b, f',
+	  options:['a, b',
 	  'b, d',
-	  'b, d, e',
-	  'b, c, f'],
+	  'b, d',
+	  'b, c'],
 	  answer:1,
 	  img:'img/sata05-1.jpg'
 	  //Ans: b, d (Select All That Apply) 	  
@@ -81,50 +81,50 @@ const quiz = [
   {//question-009
 	  q:'Select All That Apply - Using Option A B C D Below',
 	  options:['a, b, f',
-	  'b, c, e',
-	  'a, c, d, f',
-	  'b, c, f'],
+	  'b, c, e, h',
+	  'a, c, d, f, i',
+	  'b, c, f, g, h'],
 	  answer:2,
 	  img:'img/sata07-1.jpg'
-	  //Ans: a, c, d, f (Select All That Apply) 	  
+	  //Ans: a, c, d, f i(Select All That Apply) 	  
   },
   {//question-009
 	  q:'Select All That Apply - Using Option A B C D Below',
-	  options:['a, b, f',
-	  'b, c, e',
+	  options:['a, b, d, f',
+	  'b, c, d, f,',
 	  'a, c, d, e',
-	  'b, c, f'],
+	  'a, b, c, f'],
 	  answer:2,
 	  img:'img/sata08-1.jpg'
 	  //Ans: a, c, d, e (Select All That Apply) 	  
   },
   {//question-009
 	  q:'Select All That Apply - Using Option A B C D Below',
-	  options:['a, b, f',
-	  'b, c, e',
+	  options:['a, b',
+	  'b, c',
 	  'a, c',
-	  'b, c, f'],
+	  'b, d'],
 	  answer:2,
 	  img:'img/sata10-1.jpg'
 	  //Ans: a, c (Select All That Apply) 	  
   },
   {//question-009
 	  q:'Select All That Apply - Using Option A B C D Below',
-	  options:['a, b, f',
+	  options:['a, b, c',
 	  'b, c',
-	  'a, c, d, e',
-	  'b, d, f'],
+	  'a, d',
+	  'b, c, d'],
 	  answer:1,
 	  img:'img/sata12-1.jpg'
 	  //Ans: b, c (Select All That Apply) 	  
   },
   {//question-009
 	  q:'Select All That Apply - Using Option A B C D Below',
-	  options:['a, b, f',
-	  'b, c',
+	  options:['a, b',
+	  'c, d',
 	  'a, c',
-	  'b, c, f'],
-	  answer:0,
+	  'b, c'],
+	  answer:3,
 	  img:'img/sata13-1.jpg'
 	  //Ans: b, c (Select All That Apply) 	  
   },
