@@ -172,5 +172,5 @@ const quiz = [
 	  "People who work hard and succeed despite the obstacles in front of them deserve to be rewarded.",
 	  "In a tough economic climate, businesses can only survive if they lay people off."],
 	  answer:2	// answer: A-0,B-1,C-2,D-3 etc..  
-  },
+  }
 ]
