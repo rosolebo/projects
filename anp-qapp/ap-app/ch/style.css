@@ -4,19 +4,20 @@
 body{
 	margin: 0;
 	font-size: 16px;
-	background-color: #ffffff;
+	/*background-color: #ffffff;*//*white */
+	background-color: #ffffff; /*Yellow #FFCE00*/
 }
 
 *{
 	box-sizing: border-box;
 	margin: 0;
-	padding: 0;
+	padding:
 	outline: none;
 }
 
 .custom-box{
 	max-width: 700px;
-	background-color: #0f172a;
+	background-color: green;
 	margin: 40px auto;
 	padding: 30px;
 	border-radius: 10px;
